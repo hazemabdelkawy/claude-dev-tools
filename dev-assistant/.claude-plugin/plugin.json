@@ -1,0 +1,9 @@
+{
+  "name": "dev-assistant",
+  "version": "1.0.0",
+  "description": "Development analytics and session management plugin",
+  "author": {
+    "name": "Dev Tools",
+    "email": "tools@example.com"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "description": "Dev assistant hooks: session analytics (SessionStart) + prompt context (UserPromptSubmit)",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/on-session-start.sh"
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PLUGIN_ROOT}/hooks/on-prompt-submit.py"
+          }
+        ]
+      }
+    ]
+  }
+}

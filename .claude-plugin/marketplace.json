@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "claude-dev-tools",
+  "version": "1.0.0",
+  "description": "Development productivity tools for Claude Code",
+  "owner": {
+    "name": "Dev Tools",
+    "email": "tools@example.com"
+  },
+  "plugins": [
+    {
+      "name": "dev-assistant",
+      "description": "Development analytics and session management plugin",
+      "version": "1.0.0",
+      "author": {
+        "name": "Dev Tools",
+        "email": "tools@example.com"
+      },
+      "source": "./dev-assistant",
+      "category": "productivity"
+    }
+  ]
+}
